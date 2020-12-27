@@ -1,14 +1,13 @@
-<h1> Land cover classification </h1>
+<h1> Crack detection in surfaces </h1>
 <br/>
-<img src="https://github.com/sainosmichelle/TerraWare-HV/blob/master/images/eurosat.png"
-  width="1000"
-  height="500">
+<img src="https://github.com/sainosmichelle/Crack_Surface_Detection/blob/main/images/cracks.png"
+  width="500"
+  height="300">
 
-<p>Python notebooks made to classify land cover crops of satellite images from <a href="https://github.com/phelber/EuroSAT" title="Title">EuroSat dataset</a> in Python 3. </p>
+<p>Python notebooks to detect cracks in surfaces. The dataset is from <a href="https://data.mendeley.com/datasets/5y9wdsg2zt/2" title="Title">Medeley Data</a>. </p>
 
-<p>The task has been done in two main approaches to evaluate their performance: classification using shallow learning techniques and using deep learning.</p>
-<p>For the shallow learning approach, a local and global feature has been done and also a feature selection using a ranking technique. For the classification I´ve used Random Forest with high variance decision trees. For the deep learning I´ve used the raw RGB images and the ResNet50 architecture with transfer learning as suggested in <a href="https://arxiv.org/abs/1709.00029" title="Title">
-Helber, et al. 2019.</a></p>
+<p>The task has been done using a support vector machine in the global features of the images.</p>
+
 
 <h2>Getting Started</h2>
 The code is developed in python 3, you can run it in Colab or in your local Anaconda Enviroment.
@@ -27,7 +26,7 @@ conda install opencv-python
 ```
 
 <h3>Colab ussage</h3>
-<p>Run the first .ipynb to download the dataset in your Google Drive session from the <a href="https://www.kaggle.com/apollo2506/eurosat-dataset" title="Title">
+<p>Run the first .ipynb to download the dataset in your Google Drive session from the <a href="https://www.kaggle.com/arunrk7/surface-crack-detection" title="Title">
 Kaggle repository</a>. </p>
 
 <h2>Running the notebooks</h2>
