@@ -2,7 +2,7 @@
 <br/>
 <img src="https://github.com/sainosmichelle/Crack_Surface_Detection/blob/main/images/cracks.png"
   width="500"
-  height="300">
+  height="200">
 
 <p>Python notebooks to detect cracks in surfaces. The dataset is from <a href="https://data.mendeley.com/datasets/5y9wdsg2zt/2" title="Title">Medeley Data</a>. </p>
 
